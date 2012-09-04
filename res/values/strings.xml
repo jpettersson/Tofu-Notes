@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">TofuNotes</string>
+    <string name="deleteAll">Delete all notes</string>
+	<string name="exit">Exit</string>
+	<string name="save">Save</string>
+	<string name="update">Update</string>
+	<string name="goBack">Go Back</string>
+	<string name="confirm">Yes</string>
+	<string name="cancel">No</string>
+	<string name="doCancel">Cancel</string>
+	<string name="confirmChanges">Save changes?</string>
+	<string name="confirmDelete">Delete </string>
+	<string name="confirmDeleteAll">Delete all notes?</string>
+	<string name="settings">Settings</string>
+	<string name="optionsFor">Options:</string>
+	<string name="share">Share</string>
+	<string name="delete">Delete</string>
+	<string name="truncateSymbols">...</string>
+	<string name="chooseApplication">Choose Application</string>
+	<string name="untitled">Untitled</string>
+	<string name="saved">Saved!</string>
+	<string name="ok">OK</string>
+	<string name="close">Close</string>
+	<string name="defaultRowName">Type a new item here..</string>
+	
+	<string name="defaultNoteName">Write your subject here</string>
+	<string name="defaultNoteContent">Write your note here</string>
+	
+	<string name="textNote"><![CDATA[Text note]]></string>
+	<string name="listNote"><![CDATA[List note]]></string>
+	<string name="markedImportant"><![CDATA[Marked as important!]]></string>
+	<string name="setReminder"><![CDATA[Set reminder]]></string>
+	<string name="set"><![CDATA[Set]]></string>
+	<string name="clear"><![CDATA[Clear]]></string>
+	<string name="reminderSet"><![CDATA[Reminder set!]]></string>
+	<string name="reminderDateError"><![CDATA[Error. Reminder date must be in the future!]]></string>
+	
+	<string name="edit">Edit</string>
+	<string name="edit_item">Edit item</string>
+	<string name="selectType">New note:</string>
+	<string name="pendingItems">Pending items:</string>
+	<string name="completedItems">Completed items:</string>
+	<string name="pendingAscii"><![CDATA[[ ]]]></string>
+	<string name="completedAscii"><![CDATA[[x]]]></string>
+	<string name="noteLimitReached"><![CDATA[Note limit reached.\n(500 notes).\n\nDelete an old note and try again.]]></string>
+	<string name="instructions"><![CDATA[<b>You have no notes.</b><br />Tap <img src=\"test\" /> to create a<br />new note.]]></string>
+	<string name="contextInstruction"><![CDATA[Long press a note for options.]]></string>
+	
+	<string name="back">Back</string>
+	<string name="tryAgain">Try again</string>
+	
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#ffffff">
+	
+	<RelativeLayout
+		android:id="@+id/mainBottomMenu"
+	    android:layout_width="fill_parent"
+	    android:layout_height="42dp"
+		android:layout_alignParentBottom="true"
+		style="@style/TopMenu"
+	>
+	
+		<ImageButton
+			android:id="@+id/btnTofu"
+			style="@style/FooterButton.Tofu"
+			android:layout_alignParentLeft="true"
+		/>
+		
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:layout_above="@id/mainBottomMenu"
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	>
+		<ListView android:id="@android:id/list"
+				android:layout_alignParentTop="true"
+				android:divider="#e5e5e5"
+				android:dividerHeight="1dip"
+				android:fadingEdge="none"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		/>
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:id="@+id/mainTopMenu"
+	    android:layout_width="fill_parent"
+	    android:layout_height="53dp"
+		style="@style/TopMenu">
+		
+		<ImageView  
+		    android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+			android:paddingLeft="10dp"
+			android:paddingTop="16dp"
+	        style="@style/TopMenuLogo" />
+	
+	    <ImageButton
+			android:id="@+id/btnNew"
+			style="@style/ImageButton.New"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+		/>
+	
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_below="@id/mainTopMenu"
+		android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:paddingBottom="42dp"
+		android:gravity="center"
+	>
+		<TextView android:id="@+id/instructions"
+			android:layout_width="250dp" 
+	        android:layout_height="wrap_content"
+			android:textSize="18dp"
+			android:textColor="#9f9f9f"
+			android:gravity="center"
+		/>
+	</RelativeLayout> 	
+  	
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		
+		<style name="UmlautDefault" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/defaultActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/defaultInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/defaultPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/default_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/default_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/default_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/default_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/default_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/default_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/defaultPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/default_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/default_li_title</item>
+		</style>
+		
+		<style name="UmlautCinema" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/cinemaActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/cinemaInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/cinemaPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/cinema_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/cinema_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/cinema_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/cinema_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/cinema_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/cinema_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/cinemaPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/cinema_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/cinema_li_title</item>			
+		</style>
+		
+		<style name="UmlautWorld" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/worldActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/worldInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/worldPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/world_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/world_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/world_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/world_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/world_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/world_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/worldPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/world_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/world_li_title</item>			
+		</style>
+		
+		<style name="UmlautFabulous" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/fabulousActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/fabulousInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/fabulousPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/fabulous_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/fabulous_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/fabulous_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/fabulous_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/fabulous_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/fabulous_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/fabulousPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/fabulous_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/fabulous_li_title</item>			
+		</style>
+		
+		<style name="UmlautPirate" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/pirateActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/pirateInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/piratePassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/pirate_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/pirate_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/pirate_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/pirate_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/pirate_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/pirate_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/piratePassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/pirate_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/pirate_li_title</item>			
+		</style>
+</resources>

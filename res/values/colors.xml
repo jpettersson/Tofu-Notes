@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<color name="black">#FF000000</color>
+	<color name="white">#FFffffff</color>
+	
+	<color name="defaultPassive">#CC000000</color>
+	<color name="defaultPassiveStrong">#ff333333</color>
+	<color name="defaultInteractive">#FF000000</color>
+	<color name="defaultActive">#FFffe400</color>
+	
+	<color name="cinemaPassive">#CCa0a36e</color>
+	<color name="cinemaPassiveStrong">#ffb3b58b</color>
+	<color name="cinemaInteractive">#ff832317</color>
+	<color name="cinemaActive">#ffe44a30</color>
+	
+	<color name="worldPassive">#CC3d3e38</color>
+	<color name="worldPassiveStrong">#ff646560</color>
+	<color name="worldInteractive">#ff9b815c</color>
+	<color name="worldActive">#ffe6c68b</color>
+	
+	<color name="fabulousPassive">#cca7545c</color>
+	<color name="fabulousPassiveStrong">#ffb9767d</color>
+	<color name="fabulousInteractive">#ff903640</color>
+	<color name="fabulousActive">#ffd79f7c</color>
+	
+	<color name="piratePassive">#cc262b41</color>
+	<color name="piratePassiveStrong">#ff626676</color>
+	<color name="pirateInteractive">#ffd5614a</color>
+	<color name="pirateActive">#ff9ac7c0</color>
+	
+</resources>

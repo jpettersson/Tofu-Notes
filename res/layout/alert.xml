@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dialogFrame"
+	android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:minWidth="231dp"
+    android:layout_height="fill_parent"
+	>
+	
+	<RelativeLayout
+		android:layout_width="231dp"
+	    android:layout_height="wrap_content"
+		style="@style/DialogBg"
+	>
+	
+	    <LinearLayout 
+			android:id="@+id/confirmTitle"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+    
+	        <TextView
+	            style="@style/DialogText"
+	            android:id="@+id/title"
+	            android:paddingTop="15dp"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"
+				android:paddingBottom="15dp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"/>
+    
+	    </LinearLayout>
+
+	    <LinearLayout 
+			android:layout_below="@id/confirmTitle"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			>
+    
+	        <Button 
+	            android:id="@+id/positiveButton"
+				style="@style/FlatButton"
+	            android:layout_width="230dp"
+	            android:layout_height="52dp"
+	            android:singleLine="true"/>
+
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</RelativeLayout>

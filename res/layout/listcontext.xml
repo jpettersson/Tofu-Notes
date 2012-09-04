@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dialogFrame"
+	android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:minWidth="231dp"
+    android:layout_height="fill_parent"
+	>
+	
+	<RelativeLayout
+		android:layout_width="231dp"
+	    android:layout_height="wrap_content"
+		style="@style/DialogBg"
+	>
+	
+	    <RelativeLayout 
+			android:id="@+id/listContextTitle"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+			android:gravity="center_vertical"
+	        android:layout_height="52dp">
+    
+	        <RelativeLayout 
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="52dp"
+				android:gravity="center_vertical"
+			>
+			
+	        	<TextView
+	            	style="@style/DialogText.Title"
+	            	android:id="@+id/title"
+					android:paddingLeft="15dp"
+	            	android:layout_width="wrap_content"
+	            	android:layout_height="fill_parent"
+					android:gravity="center_vertical"
+				/>
+				
+				<ImageButton
+						android:id="@+id/btnClose"
+						style="@style/CloseButton"
+						android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+				/>
+	
+			</RelativeLayout>
+    
+	    </RelativeLayout>
+
+	    <RelativeLayout 
+			android:layout_below="@id/listContextTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			>
+    
+	        <Button 
+	            android:id="@+id/shareButton"
+				style="@style/FlatButton"
+	            android:layout_width="231dp"
+	            android:layout_height="60dp"
+	            android:singleLine="true"
+				android:gravity="left"
+				android:paddingLeft="15dp"
+				android:paddingTop="18dp"
+				
+				/>
+
+		    <Button 
+				android:layout_marginTop="1dp"
+	            android:id="@+id/deleteButton"
+				android:layout_below="@id/shareButton"
+				style="@style/FlatButton"
+	            android:layout_width="231dp"
+	            android:layout_height="60dp"
+	            android:singleLine="true"
+				android:gravity="left"
+				android:paddingLeft="15dp"
+				android:paddingTop="18dp"
+			/>
+
+	    </RelativeLayout>
+	
+	</RelativeLayout>
+	
+</RelativeLayout>

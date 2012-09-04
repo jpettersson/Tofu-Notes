@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id ="@+id/noteFrame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#ffffff">
+	
+	<LinearLayout
+	    android:focusable="true" android:focusableInTouchMode="true"
+	    android:layout_width="0px" android:layout_height="0px"/>
+	
+	<RelativeLayout
+		android:id="@+id/mainBottomMenu"
+	    android:layout_width="fill_parent"
+	    android:layout_height="42dp"
+		android:layout_alignParentBottom="true"
+		style="@style/TopMenu"
+	>
+
+		<ImageButton
+			android:id="@+id/btnTofu"
+			style="@style/FooterButton.Tofu"
+			android:layout_alignParentLeft="true"
+		/>
+
+		<ImageButton
+			android:id="@+id/btnImportant"
+			style="@style/FooterButton.Important"
+			android:layout_toRightOf="@id/btnTofu"
+			android:layout_marginLeft="1dp"
+		/>
+
+		<ImageButton
+			android:id="@+id/btnReminder"
+			style="@style/FooterButton.Reminder"
+			android:layout_toRightOf="@id/btnImportant"
+			android:layout_marginLeft="1dp"
+		/>
+
+
+	</RelativeLayout>
+	
+	<RelativeLayout
+		android:layout_above="@id/mainBottomMenu"
+		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+	>
+	
+		<RelativeLayout
+			android:id="@+id/noteTopMenu"
+		    android:layout_width="fill_parent"
+		    android:layout_height="53dp"
+			style="@style/TopMenu">
+		
+			<ImageView  
+			    android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+				android:paddingLeft="10dp"
+				android:paddingTop="16dp"
+		        style="@style/TopMenuLogo" />
+	
+		    <ImageButton
+				android:id="@+id/btnClose"
+				android:layout_alignParentRight="true"
+				android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				style="@style/ImageButton.Close"
+			/>
+		
+			<ImageButton
+				android:id="@+id/btnDelete"
+				android:layout_toLeftOf="@id/btnClose"
+				android:layout_marginRight="1dp"
+				android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				style="@style/ImageButton.Delete"
+			/>
+		
+			<ImageButton
+				android:id="@+id/btnSave"
+				android:layout_toLeftOf="@id/btnDelete"
+				android:layout_marginRight="1dp"
+				android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				style="@style/ImageButton.Save"
+			/>
+		
+		</RelativeLayout>
+
+		<EditText android:id ="@+id/noteName"
+				android:background="@android:color/transparent"
+				android:layout_below="@id/noteTopMenu"
+			 	android:layout_width="fill_parent"
+		    	android:layout_height="52dp"
+		    	android:paddingLeft="10dp" 
+				android:paddingRight="10dp" 
+		    	android:textSize="18dp"
+				android:textColor="#9f9f9f"
+				android:textStyle="bold"
+				android:nextFocusUp="@+id/noteName"
+				android:nextFocusLeft="@+id/noteName"
+				android:singleLine="true"
+				android:inputType="textCapSentences"
+			/>
+	
+		<View android:id ="@+id/noteBorder"
+			android:layout_below="@id/noteName"
+			android:background="#e5e5e5"
+		 	android:layout_width="fill_parent"
+	    	android:layout_height="1dp"
+		
+			/>
+	
+		<ScrollView android:id="@+id/ScrollView01"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:paddingRight="2dp"
+			android:layout_below="@id/noteBorder"
+		>	
+				<EditText android:id ="@+id/noteBody"
+						android:background="@android:color/transparent"
+				 		android:layout_width="fill_parent" 
+						android:layout_height="fill_parent"
+						android:gravity="top"
+			    		android:paddingLeft="10dp"
+			 			android:paddingRight="10dp"
+						android:paddingTop="15dp"
+						android:paddingBottom="15dp"
+			    		android:textSize="18dp"
+						android:singleLine="false"
+						android:textColor="#9f9f9f"
+						android:inputType="textCapSentences|textMultiLine"
+					/>	
+		</ScrollView>
+	</RelativeLayout>
+	
+</RelativeLayout>

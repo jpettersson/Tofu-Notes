@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<attr name="activeColor" format="color" />
+	<attr name="interactiveColor" format="color" />
+	<attr name="passiveStrongColor" format="color" />
+	<attr name="whiteSmallButtonBg" format="reference" />
+	<attr name="smallButtonBg" format="reference" />
+	<attr name="completedIcon" format="reference" />
+	<attr name="buttonBg" format="color" />
+	<attr name="menuBg" format="color" />
+	<attr name="confirmBg" format="color" />
+	<attr name="dialogBgColor" format="color" />
+	<attr name="topMenuLogo" format="reference" />
+	<attr name="listItemTitleBg" format="reference" />
+	
+</resources>

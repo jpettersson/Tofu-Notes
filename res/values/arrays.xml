@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+   
+    <string-array name="dateFormats">
+        <item>Europe (yy/mm/dd)</item>
+        <item>United States (mm/dd/yy)</item>
+    </string-array>
+    
+    <string-array name="dateFormatValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="themeLabels">
+        <item>Tofu Notes (Default)</item>
+		<item>At the cinema</item>
+        <item>End of the world</item>
+		<item>Being fabulous</item>
+		<item>Pirate Bar</item>
+    </string-array>
+    
+    <string-array name="themeValues">
+        <item>1</item>
+        <item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+    </string-array>
+
+	<string-array name="listStyleLabels">
+        <item>Group by date</item>
+		<item>Continuous (Default)</item>
+    </string-array>
+    
+    <string-array name="listStyleValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    
+</resources>
