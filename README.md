@@ -11,7 +11,7 @@ Roadmap
 -------
 
 **Version 2.4.4**	
-Release date: 09-16-2012	
+Release date: TBD	
 Updates include:	
 
 * Increase maximum note limit from 150 to 500.
