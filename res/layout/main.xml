@@ -30,8 +30,10 @@
 				android:divider="#e5e5e5"
 				android:dividerHeight="1dip"
 				android:fadingEdge="none"
-		        android:layout_width="fill_parent"
-		        android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:listSelector="@android:color/transparent" 
+				android:cacheColorHint="#00000000"
 		/>
 	</RelativeLayout>
 	

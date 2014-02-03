@@ -6,7 +6,7 @@
 	android:paddingTop="10dp"
 	android:paddingLeft="5dp"
 	android:paddingBottom="10dp"
-	android:background="#ffffff"
+	android:cacheColorHint="#00000000"
 	>
 
 	<TextView android:id="@+id/noteRowDate" xmlns:android="http://schemas.android.com/apk/res/android"
