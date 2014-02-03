@@ -12,12 +12,12 @@
 		style="@style/TopMenu"
 	>
 	
-		<ImageButton
+<!-- 		<ImageButton
 			android:id="@+id/btnTofu"
 			style="@style/FooterButton.Tofu"
 			android:layout_alignParentLeft="true"
 		/>
-		
+ -->		
 	</RelativeLayout>
 	
 	<RelativeLayout

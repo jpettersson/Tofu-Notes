@@ -18,16 +18,16 @@
 		style="@style/TopMenu"
 	>
 
-		<ImageButton
+<!-- 		<ImageButton
 			android:id="@+id/btnTofu"
 			style="@style/FooterButton.Tofu"
 			android:layout_alignParentLeft="true"
 		/>
-
+ -->
 		<ImageButton
 			android:id="@+id/btnImportant"
 			style="@style/FooterButton.Important"
-			android:layout_toRightOf="@id/btnTofu"
+			android:layout_alignParentLeft="true"
 			android:layout_marginLeft="1dp"
 		/>
 
