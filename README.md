@@ -11,23 +11,19 @@ Roadmap
 -------
 
 **Version 2.4.4**	
-Release date: TBD	
+Release date: Early Feb 2014
 Updates include:	
 
 * Increase maximum note limit from 150 to 500.
 * Announce the Tofu Notes Open Source project!
+* Optimization and bugfixes for Android 4.x (Ice Cream Sandwich & Jelly Bean)	
+
 
 **Version 2.4.5**	
 Release date: TBD 	
 Updates include:	
 
-* Optimization and bugfixes for Android 4.x (Ice Cream Sandwich & Jelly Bean)	
-
-Planned Features
-----------------
-
-* New note types: Photo note, Voice note, Location note.
-* Integration with [Dropbox](http://dropbox.com)
+* Export/Import notes! (To SD card)
 
 Bugs & Feature Requests
 -----------
