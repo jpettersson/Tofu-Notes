@@ -41,4 +41,4 @@ License & Copyright
 -------
 The Tofu Notes application source code is licensed under the [MIT License](http://opensource.org/licenses/MIT). 
 
-Brand names: "Tofu Notes" and "Spacetofu" and all logos and artworks are © 2010-2012 Hampus Olsson & Jonathan Pettersson. 
+Brand names: "Tofu Notes" and "Spacetofu" and all logos and artworks are © 2010-2014 Hampus Olsson & Jonathan Pettersson. 
