@@ -48,11 +48,13 @@ import android.view.MenuItem;
 import android.view.Surface;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
+import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.ImageButton;
@@ -99,7 +101,68 @@ public class OverviewActivity extends ListActivity {
     
         Model.getInstance().reset();
         
-        registerForContextMenu(getListView());
+        //registerForContextMenu(getListView());
+        
+    	final Activity activity = this;        
+        
+        getListView().setOnItemLongClickListener(new OnItemLongClickListener() {
+
+			@Override
+			public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+
+			 	Object obj = listAdapter.getItem(position);
+		    	
+		    	if(obj != null) {
+		    	
+			    	Model.getInstance().selectNoteByReference(obj);
+			    	
+			    	ListContextMenu dialog = Umlaut.getListContextMenu(activity, Model.getInstance().getCurrentNote().getName(),
+			    			new DialogInterface.OnClickListener() {
+					            public void onClick(DialogInterface dialog, int which) {
+					            	dialog.dismiss();
+					            	
+					            	Intent it = new Intent(Intent.ACTION_SEND);    
+					    			it.putExtra(Intent.EXTRA_SUBJECT, Model.getInstance().getCurrentNote().getName());
+					    			it.putExtra(Intent.EXTRA_TEXT, Model.getInstance().getCurrentNote().toEmail(OverviewActivity.this));   
+					    			it.setType("text/plain");   
+					    			startActivity(Intent.createChooser(it, getString(R.string.chooseApplication)));  
+					    			
+					            }
+					        },
+					        new DialogInterface.OnClickListener() {
+					            public void onClick(DialogInterface dialog, int which) {
+					                dialog.dismiss();
+					                
+					                ConfirmDialog deleteDialog = Umlaut.getConfirmDialoge(activity, getString(R.string.confirmDelete) + " " + Model.getInstance().getCurrentNote().getName() + "?", 
+					        	        	new DialogInterface.OnClickListener() {
+					        	                public void onClick(DialogInterface dialog, int which) {
+					        	                	dialog.dismiss();
+					        	                	Model.getInstance().deleteCurrentNote();
+					         		   			    build();
+					        	                }
+					        	            },
+					        	            new DialogInterface.OnClickListener() {
+					        	                public void onClick(DialogInterface dialog, int which) {
+					        	                    dialog.dismiss();
+					        	                }
+					        	            }
+					        	        );
+					        	        
+					                deleteDialog.show();
+					                
+					            }
+					        }
+				    			
+			    	);
+			    	
+			    	dialog.show();
+			    	
+		    	}
+				
+				return true;
+			}
+        	
+        });
         
         ImageButton btnNew = (ImageButton)findViewById(R.id.btnNew);
         btnNew.setOnClickListener(new OnClickListener() {
@@ -351,64 +414,15 @@ public class OverviewActivity extends ListActivity {
         	
         }
     }
-    
-    @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
-    	AdapterContextMenuInfo info = (AdapterContextMenuInfo) menuInfo;
-    	Object obj = listAdapter.getItem(info.position);
-    	
-    	if(obj != null) {
-    	
-	    	Model.getInstance().selectNoteByReference(obj);
-	    	
-	    	final Activity activity = this;
-	    	
-	    	ListContextMenu dialog = Umlaut.getListContextMenu(this, Model.getInstance().getCurrentNote().getName(),
-	    			new DialogInterface.OnClickListener() {
-			            public void onClick(DialogInterface dialog, int which) {
-			            	dialog.dismiss();
-			            	
-			            	Intent it = new Intent(Intent.ACTION_SEND);    
-			    			it.putExtra(Intent.EXTRA_SUBJECT, Model.getInstance().getCurrentNote().getName());
-			    			it.putExtra(Intent.EXTRA_TEXT, Model.getInstance().getCurrentNote().toEmail(OverviewActivity.this));   
-			    			it.setType("text/plain");   
-			    			startActivity(Intent.createChooser(it, getString(R.string.chooseApplication)));  
-			    			
-			            }
-			        },
-			        new DialogInterface.OnClickListener() {
-			            public void onClick(DialogInterface dialog, int which) {
-			                dialog.dismiss();
-			                
-			                ConfirmDialog deleteDialog = Umlaut.getConfirmDialoge(activity, getString(R.string.confirmDelete) + " " + Model.getInstance().getCurrentNote().getName() + "?", 
-			        	        	new DialogInterface.OnClickListener() {
-			        	                public void onClick(DialogInterface dialog, int which) {
-			        	                	dialog.dismiss();
-			        	                	Model.getInstance().deleteCurrentNote();
-			         		   			    build();
-			        	                }
-			        	            },
-			        	            new DialogInterface.OnClickListener() {
-			        	                public void onClick(DialogInterface dialog, int which) {
-			        	                    dialog.dismiss();
-			        	                }
-			        	            }
-			        	        );
-			        	        
-			                deleteDialog.show();
-			                
-			            }
-			        }
-		    			
-	    	);
-	    	
-	    	dialog.show();
-	    	
-    	}
-    	
-    	return;
-    	
-    }
+
+//    @Override
+//    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenuInfo menuInfo) {
+//    	AdapterContextMenuInfo info = (AdapterContextMenuInfo) menuInfo;
+//   
+//    	
+//    	return;
+//    	
+//    }
     
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
