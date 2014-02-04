@@ -39,7 +39,7 @@ public class MainPreferenceActivity extends PreferenceActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.layout.preferences);
+		addPreferencesFromResource(R.layout.preferences);
         
         OnPreferenceChangeListener listener = new Preference.OnPreferenceChangeListener() {
 

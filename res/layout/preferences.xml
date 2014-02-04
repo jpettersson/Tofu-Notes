@@ -1,38 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
-  	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android"
 >
   
-   <PreferenceCategory android:title="Umlaut Settings"
+  <PreferenceCategory android:title="Umlaut Settings">
 
-	>
-       
-         <ListPreference
-           android:title="Date/Time format"
-           android:summary="Select your desired date format."
-           android:key="dateFormat"
-           android:defaultValue="1"
-           android:entries="@array/dateFormats"
-           android:entryValues="@array/dateFormatValues" />       
-         
-		<ListPreference
-		   android:id="@+id/themeSelector"
-           android:title="Theme"
-           android:summary="Select a theme."
-           android:key="theme"
-           android:defaultValue="1"
-           android:entries="@array/themeLabels"
-           android:entryValues="@array/themeValues" />
-              
- 		<ListPreference
-		   android:id="@+id/listStyleSelector"
-           android:title="List style"
-           android:summary="Choose the list style."
-           android:key="listStyle"
-           android:defaultValue="1"
-           android:entries="@array/listStyleLabels"
-           android:entryValues="@array/listStyleValues" />
+    <ListPreference
+       android:title="Date/Time format"
+       android:summary="Select your desired date format."
+       android:key="dateFormat"
+       android:defaultValue="1"
+       android:entries="@array/dateFormats"
+       android:entryValues="@array/dateFormatValues" />
 
-    </PreferenceCategory>
-   
+    <ListPreference
+       android:id="@+id/themeSelector"
+       android:title="Theme"
+       android:summary="Select a theme."
+       android:key="theme"
+       android:defaultValue="1"
+       android:entries="@array/themeLabels"
+       android:entryValues="@array/themeValues" />
+
+    <ListPreference
+       android:id="@+id/listStyleSelector"
+       android:title="List style"
+       android:summary="Choose the list style."
+       android:key="listStyle"
+       android:defaultValue="1"
+       android:entries="@array/listStyleLabels"
+       android:entryValues="@array/listStyleValues" />
+
+  </PreferenceCategory>
+  <PreferenceCategory android:title="Import/Export (Experimental)">
+
+    <Preference android:title="Export to SD card" >
+      <intent android:action="android.intent.action.VIEW"
+        android:data="http://www.example.com" />
+    </Preference>
+
+    <Preference android:title="Import from SD card" >
+      <intent android:action="android.intent.action.VIEW"
+        android:data="http://www.example.com" />
+    </Preference>
+
+  </PreferenceCategory>
+
 </PreferenceScreen>
