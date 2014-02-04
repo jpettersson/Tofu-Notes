@@ -11,8 +11,8 @@ Roadmap
 -------
 
 **Version 2.4.4**	
-Release date: Early Feb 2014
-Updates include:	
+Released: Feb 04 2014
+Updates:	
 
 * Increase maximum note limit from 150 to 500.
 * Announce the Tofu Notes Open Source project!
