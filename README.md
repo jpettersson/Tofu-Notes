@@ -11,23 +11,19 @@ Roadmap
 -------
 
 **Version 2.4.4**	
-Release date: TBD	
-Updates include:	
+Released: Feb 04 2014
+Updates:	
 
 * Increase maximum note limit from 150 to 500.
 * Announce the Tofu Notes Open Source project!
+* Optimization and bugfixes for Android 4.x (Ice Cream Sandwich & Jelly Bean)	
+
 
 **Version 2.4.5**	
 Release date: TBD 	
 Updates include:	
 
-* Optimization and bugfixes for Android 4.x (Ice Cream Sandwich & Jelly Bean)	
-
-Planned Features
-----------------
-
-* New note types: Photo note, Voice note, Location note.
-* Integration with [Dropbox](http://dropbox.com)
+* Export/Import notes! (To SD card)
 
 Bugs & Feature Requests
 -----------
@@ -43,6 +39,6 @@ Eventually this README will include instructions and guidelines for how to contr
 
 License & Copyright
 -------
-The Tofu Notes application source code is licensed under the [GNU General Public License](http://www.gnu.org/licenses/gpl.html). 
+The Tofu Notes application source code is licensed under the [MIT License](http://opensource.org/licenses/MIT). 
 
-Brand names: "Tofu Notes" and "Spacetofu" and all logos and artworks are © 2010-2012 Hampus Olsson & Jonathan Pettersson. 
+Brand names: "Tofu Notes" and "Spacetofu" and all logos and artworks are © 2010-2014 Hampus Olsson & Jonathan Pettersson. 
