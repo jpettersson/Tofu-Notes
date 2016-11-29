@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/e404_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/e404_button_bg.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/fabulous_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/fabulous_button_bg.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/world_li_title.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/world_li_title.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/pirate_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/pirate_button_bg.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/world_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/world_button_bg.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/fabulous_li_title.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/fabulous_li_title.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/e404_title.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/e404_title.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/cinema_li_title.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/cinema_li_title.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/default_li_title.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/default_li_title.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/small_bw_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/small_bw_button_bg.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/button_text.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/button_text.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/pirate_li_title.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/pirate_li_title.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/cinema_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/cinema_button_bg.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/color/default_button_bg.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/color/default_button_bg.xml"
+    }
+]

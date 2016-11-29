@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/anim/fade_in.xml"
+    }
+]

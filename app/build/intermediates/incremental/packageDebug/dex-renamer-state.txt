@@ -1,0 +1,7 @@
+#Tue Nov 29 21:06:00 CET 2016
+base.0=/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_11e359a9a70e83bb5ab9ae5a4489458c64b9e366
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4741c7c2fbfdb479190574c411215f6f24844bf3/classes.dex
+base.1=/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_4741c7c2fbfdb479190574c411215f6f24844bf3
+file.0=/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_11e359a9a70e83bb5ab9ae5a4489458c64b9e366/classes.dex

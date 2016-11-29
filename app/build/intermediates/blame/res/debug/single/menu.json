@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/menu/list.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/menu/list.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/menu/note_menu.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/menu/note_menu.xml"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/menu/about.xml",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/menu/about.xml"
+    }
+]

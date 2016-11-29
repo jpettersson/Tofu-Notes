@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dialogFrame"
+	android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:minWidth="231dp"
+    android:layout_height="fill_parent"
+	>
+	
+	<RelativeLayout
+		android:layout_width="231dp"
+	    android:layout_height="wrap_content"
+		style="@style/DialogBg"
+	>
+	
+	    <LinearLayout 
+			android:id="@+id/confirmTitle"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content">
+    
+	        <RelativeLayout 
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="52dp"
+				android:gravity="center_vertical"
+			>
+			
+	        	<TextView
+	            	style="@style/DialogText.Title"
+	            	android:id="@+id/title"
+					android:paddingLeft="15dp"
+	            	android:layout_width="wrap_content"
+	            	android:layout_height="fill_parent"
+					android:gravity="center_vertical"
+				/>
+				
+				<ImageButton
+						android:id="@+id/btnClose"
+						style="@style/CloseButton"
+						android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+				/>
+	
+			</RelativeLayout>
+    
+	    </LinearLayout>
+
+	    <LinearLayout 
+			android:layout_below="@id/confirmTitle"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+			>
+    
+	        <Button 
+	            android:id="@+id/positiveButton"
+				style="@style/FlatButton"
+	            android:layout_width="115dp"
+	            android:layout_height="60dp"
+	            android:singleLine="true"/>
+
+    		<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="right"
+			>
+
+		        <Button 
+		            android:id="@+id/negativeButton"
+					style="@style/FlatButton"
+		            android:layout_width="115dp"
+		            android:layout_height="60dp"
+		            android:singleLine="true"
+				/>
+		
+			</LinearLayout>
+	    </LinearLayout>
+	
+	</RelativeLayout>
+	
+</RelativeLayout>

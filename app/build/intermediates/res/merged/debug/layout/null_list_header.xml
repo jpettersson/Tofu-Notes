@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/nullListHeader"
+	android:layout_width="fill_parent"	
+	android:layout_height="52dp"
+	android:minHeight="52dp"	
+	android:orientation="horizontal"
+	android:gravity="center_vertical"
+	android:background="#ffffffff"
+>
+	<TextView	
+		android:id="@+id/label"
+		android:layout_width="fill_parent"	
+		android:layout_height="wrap_content"	
+		android:textColor="#ffffff"
+		android:gravity="left"
+		android:paddingLeft="10dp"
+		android:textSize="13dp"
+	/>
+
+</LinearLayout>

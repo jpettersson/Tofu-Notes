@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/cinema_alpha.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/cinema_alpha.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_new_small.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_new_small.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/world_logo.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/world_logo.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/world_icon_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/world_icon_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/world_new_small.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/world_new_small.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pen_ico.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pen_ico.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/bubble_arrow.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/bubble_arrow.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_reminder_dark.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_reminder_dark.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/world_alpha.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/world_alpha.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/list_pending.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/list_pending.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_new_icon.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/btn_new_icon.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pirate_new_small.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pirate_new_small.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/anim_loading_2.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/anim_loading_2.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_alpha.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_alpha.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/cinema_small_bg.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/cinema_small_bg.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_important.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_important.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/list_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/list_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_small_bg.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_small_bg.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pen_ico_w.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pen_ico_w.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/todo_ico.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/todo_ico.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/todo_ico_w.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/todo_ico_w.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/cinema_logo.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/cinema_logo.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_collaborate.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_collaborate.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/fabulous_new_small.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/fabulous_new_small.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/fabulous_small_bg.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/fabulous_small_bg.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_systembar.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_systembar.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/reminder_ico.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/reminder_ico.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/photo_ico.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/photo_ico.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/check.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/check.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_reminder.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_reminder.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/cinema_icon_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/cinema_icon_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_location.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_location.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/logo.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/world_new_small_active.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/world_new_small_active.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/umlaut.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/umlaut.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/anim_loading_0.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/anim_loading_0.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/sound_ico.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/sound_ico.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_logo.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_logo.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_minus_icon.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/btn_minus_icon.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pirate_alpha.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pirate_alpha.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_save_icon.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/btn_save_icon.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_list_checked.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_list_checked.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pirate_new_small_active.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pirate_new_small_active.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_icon_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_icon_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/transparent_bg.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/transparent_bg.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/fabulous_alpha.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/fabulous_alpha.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/fabulous_new_small_active.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/fabulous_new_small_active.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/cinema_new_small_active.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/cinema_new_small_active.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/add_row.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/add_row.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/default_new_small_active.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/default_new_small_active.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_trash_icon.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/btn_trash_icon.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/cinema_new_small.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/cinema_new_small.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pirate_logo.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pirate_logo.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/fabulous_logo.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/fabulous_logo.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pirate_icon_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pirate_icon_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/anim_loading_1.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/anim_loading_1.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_close_icon.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/btn_close_icon.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/spacetofu.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/spacetofu.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/small_add.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/small_add.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/world_small_bg.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/world_small_bg.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/pirate_small_bg.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/pirate_small_bg.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_tofu.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_tofu.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/fabulous_icon_completed.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/fabulous_icon_completed.png"
+    },
+    {
+        "merged": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_important_dark.png",
+        "source": "/Users/jpettersson/Projects/jpettersson/Tofu-Notes-3/app/src/main/res/drawable-hdpi/icon_important_dark.png"
+    }
+]

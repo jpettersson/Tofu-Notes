@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dateFormatValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dateFormats">
+        <item>Europe (yy/mm/dd)</item>
+        <item>United States (mm/dd/yy)</item>
+    </string-array>
+    <string-array name="listStyleLabels">
+        <item>Group by date</item>
+		<item>Continuous (Default)</item>
+    </string-array>
+    <string-array name="listStyleValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="themeLabels">
+        <item>Tofu Notes (Default)</item>
+		<item>At the cinema</item>
+        <item>End of the world</item>
+		<item>Being fabulous</item>
+		<item>Pirate Bar</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item>1</item>
+        <item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+    </string-array>
+    <attr format="color" name="activeColor"/>
+    <attr format="color" name="buttonBg"/>
+    <attr format="reference" name="completedIcon"/>
+    <attr format="color" name="confirmBg"/>
+    <attr format="color" name="dialogBgColor"/>
+    <attr format="color" name="interactiveColor"/>
+    <attr format="reference" name="listItemTitleBg"/>
+    <attr format="color" name="menuBg"/>
+    <attr format="color" name="passiveStrongColor"/>
+    <attr format="reference" name="smallButtonBg"/>
+    <attr format="reference" name="topMenuLogo"/>
+    <attr format="reference" name="whiteSmallButtonBg"/>
+    <color name="black">#FF000000</color>
+    <color name="cinemaActive">#ffe44a30</color>
+    <color name="cinemaInteractive">#ff832317</color>
+    <color name="cinemaPassive">#CCa0a36e</color>
+    <color name="cinemaPassiveStrong">#ffb3b58b</color>
+    <color name="defaultActive">#FFffe400</color>
+    <color name="defaultInteractive">#FF000000</color>
+    <color name="defaultPassive">#CC000000</color>
+    <color name="defaultPassiveStrong">#ff333333</color>
+    <color name="fabulousActive">#ffd79f7c</color>
+    <color name="fabulousInteractive">#ff903640</color>
+    <color name="fabulousPassive">#cca7545c</color>
+    <color name="fabulousPassiveStrong">#ffb9767d</color>
+    <color name="pirateActive">#ff9ac7c0</color>
+    <color name="pirateInteractive">#ffd5614a</color>
+    <color name="piratePassive">#cc262b41</color>
+    <color name="piratePassiveStrong">#ff626676</color>
+    <color name="white">#FFffffff</color>
+    <color name="worldActive">#ffe6c68b</color>
+    <color name="worldInteractive">#ff9b815c</color>
+    <color name="worldPassive">#CC3d3e38</color>
+    <color name="worldPassiveStrong">#ff646560</color>
+    <item name="display" type="id"/>
+    <item name="icon" type="id"/>
+    <item name="listRowIconHolder" type="id"/>
+    <item name="negBtn" type="id"/>
+    <item name="posBtn" type="id"/>
+    <item name="reminderIcon" type="id"/>
+    <item name="todoIcon" type="id"/>
+    <string name="app_name">TofuNotes</string>
+    <string name="back">Back</string>
+    <string name="cancel">No</string>
+    <string name="chooseApplication">Choose Application</string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="completedAscii">[x]</string>
+    <string name="completedItems">Completed items:</string>
+    <string name="confirm">Yes</string>
+    <string name="confirmChanges">Save changes?</string>
+    <string name="confirmDelete">Delete </string>
+    <string name="confirmDeleteAll">Delete all notes?</string>
+    <string name="contextInstruction">Long press a note for options.</string>
+    <string name="defaultNoteContent">Write your note here</string>
+    <string name="defaultNoteName">Write your subject here</string>
+    <string name="defaultRowName">Type a new item here..</string>
+    <string name="delete">Delete</string>
+    <string name="deleteAll">Delete all notes</string>
+    <string name="doCancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="edit_item">Edit item</string>
+    <string name="exit">Exit</string>
+    <string name="goBack">Go Back</string>
+    <string name="instructions">&lt;b>You have no notes.&lt;/b>&lt;br />Tap &lt;img src=\"test\" /> to create a&lt;br />new note.</string>
+    <string name="listNote">List note</string>
+    <string name="markedImportant">Marked as important!</string>
+    <string name="noteLimitReached">Note limit reached.\n(500 notes).\n\nDelete an old note and try again.</string>
+    <string name="ok">OK</string>
+    <string name="optionsFor">Options:</string>
+    <string name="pendingAscii">[ ]</string>
+    <string name="pendingItems">Pending items:</string>
+    <string name="reminderDateError">Error. Reminder date must be in the future!</string>
+    <string name="reminderSet">Reminder set!</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved!</string>
+    <string name="selectType">New note:</string>
+    <string name="set">Set</string>
+    <string name="setReminder">Set reminder</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="textNote">Text note</string>
+    <string name="truncateSymbols">...</string>
+    <string name="tryAgain">Try again</string>
+    <string name="untitled">Untitled</string>
+    <string name="update">Update</string>
+    <style name="CloseButton">
+		<item name="android:background">?smallButtonBg</item>
+		<item name="android:src">@drawable/btn_close_icon</item>
+	</style>
+    <style name="CompletedRowButton">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:src">?completedIcon</item>
+	</style>
+    <style name="ConfirmDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowBackground">@drawable/transparent_bg</item>
+		<item name="android:background">?confirmBg</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">false</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:windowAnimationStyle">@style/FadeAnimation</item>
+    </style>
+    <style name="DialogBg">
+        <item name="android:background">?dialogBgColor</item>
+    </style>
+    <style name="DialogText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="DialogText.Title">
+		<item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="E404Button">
+		<item name="android:background">@color/e404_button_bg</item>
+		<item name="android:textColor">@color/e404_title</item>
+	</style>
+    <style name="EditDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/transparent_bg</item>
+		<item name="android:background">?confirmBg</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">false</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:windowAnimationStyle">@style/FadeAnimation</item>
+		<item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+    <style name="FadeAnimation" parent="@android:Animation">
+		<item name="android:windowEnterAnimation">@anim/fade_in</item>
+		<item name="android:windowExitAnimation">@anim/fade_out</item> 
+	</style>
+    <style name="FadeAnimationOutOnly" parent="@android:Animation">
+		<item name="android:windowEnterAnimation">@anim/fade_in</item>
+		<item name="android:windowExitAnimation">@anim/fade_out</item> 
+	</style>
+    <style name="FlatButton">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingTop">15dp</item>
+		<item name="android:paddingBottom">15dp</item>
+		<item name="android:textColor">@color/button_text</item>
+		<item name="android:background">?buttonBg</item>
+    </style>
+    <style name="FooterButton">
+		<item name="android:background">?buttonBg</item>
+		<item name="android:layout_width">42dp</item>
+		<item name="android:layout_height">42dp</item>
+	</style>
+    <style name="FooterButton.Collaborate">
+		<item name="android:src">@drawable/icon_collaborate</item>
+	</style>
+    <style name="FooterButton.Important">
+		<item name="android:src">@drawable/icon_important</item>
+	</style>
+    <style name="FooterButton.Location">
+		<item name="android:src">@drawable/icon_location</item>
+	</style>
+    <style name="FooterButton.Reminder">
+		<item name="android:src">@drawable/icon_reminder</item>
+	</style>
+    <style name="FooterButton.Tofu">
+		<item name="android:src">@drawable/icon_tofu</item>
+	</style>
+    <style name="ImageButton">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+    <style name="ImageButton.Close">
+		<item name="android:src">@drawable/btn_close_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="ImageButton.Delete">
+		<item name="android:src">@drawable/btn_trash_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="ImageButton.Minus">
+		<item name="android:src">@drawable/btn_minus_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="ImageButton.New">
+		<item name="android:src">@drawable/btn_new_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="ImageButton.Plus">
+		<item name="android:src">@drawable/btn_new_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="ImageButton.Save">
+		<item name="android:src">@drawable/btn_save_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="ListHeader">
+		<item name="android:background">#ffe5e5e5</item>
+	</style>
+    <style name="ListItemTitle">
+		<item name="android:background">?listItemTitleBg</item>
+	</style>
+    <style name="MChoiceRow">
+		<item name="android:background">?buttonBg</item>
+	</style>
+    <style name="MultiChoiceDialogList">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:divider">?passiveStrongColor</item>
+	</style>
+    <style name="NewRowButton">
+		<item name="android:background">?smallButtonBg</item>
+		<item name="android:src">@drawable/small_add</item>
+	</style>
+    <style name="PendingRowButton">
+		<item name="android:background">?smallButtonBg</item>
+		<item name="android:src">@drawable/list_pending</item>
+	</style>
+    <style name="PickerValueText">
+		<item name="android:background">#ffffffff</item>
+		<item name="android:textColor">#ff00FF00</item>
+	</style>
+    <style name="Toast">
+		<item name="android:background">?dialogBgColor</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+    <style name="TofuToast">
+		<item name="android:background">?interactiveColor</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+    <style name="TopMenu">
+		<item name="android:background">?menuBg</item>
+	</style>
+    <style name="TopMenuLogo">
+		<item name="android:src">?topMenuLogo</item>
+	</style>
+    <style name="UmlautCinema" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/cinemaActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/cinemaInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/cinemaPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/cinema_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/cinema_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/cinema_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/cinema_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/cinema_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/cinema_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/cinemaPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/cinema_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/cinema_li_title</item>			
+		</style>
+    <style name="UmlautDefault" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/defaultActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/defaultInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/defaultPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/default_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/default_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/default_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/default_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/default_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/default_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/defaultPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/default_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/default_li_title</item>
+		</style>
+    <style name="UmlautFabulous" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/fabulousActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/fabulousInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/fabulousPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/fabulous_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/fabulous_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/fabulous_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/fabulous_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/fabulous_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/fabulous_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/fabulousPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/fabulous_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/fabulous_li_title</item>			
+		</style>
+    <style name="UmlautPirate" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/pirateActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/pirateInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/piratePassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/pirate_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/pirate_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/pirate_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/pirate_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/pirate_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/pirate_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/piratePassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/pirate_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/pirate_li_title</item>			
+		</style>
+    <style name="UmlautWorld" parent="android:Theme.NoTitleBar">
+			<item name="com.spacetofu.umlaut:activeColor">@color/worldActive</item>
+			<item name="com.spacetofu.umlaut:interactiveColor">@color/worldInteractive</item>
+			<item name="com.spacetofu.umlaut:passiveStrongColor">@color/worldPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:menuBg">@drawable/world_alpha</item>
+			<item name="com.spacetofu.umlaut:buttonBg">@color/world_button_bg</item>
+			<item name="com.spacetofu.umlaut:completedIcon">@drawable/world_completed_icon</item>
+			<item name="com.spacetofu.umlaut:smallButtonBg">@drawable/world_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:whiteSmallButtonBg">@drawable/world_white_small_button_bg</item>
+			<item name="com.spacetofu.umlaut:confirmBg">@drawable/world_confirm_bg</item>
+			<item name="com.spacetofu.umlaut:dialogBgColor">@color/worldPassiveStrong</item>
+			<item name="com.spacetofu.umlaut:topMenuLogo">@drawable/world_logo</item>
+			<item name="com.spacetofu.umlaut:listItemTitleBg">@color/world_li_title</item>			
+		</style>
+</resources>

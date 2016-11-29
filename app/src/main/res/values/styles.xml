@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Global styles -->
+	
+	<style name="TopMenu">
+		<item name="android:background">?menuBg</item>
+	</style>
+	
+	<style name="TopMenuLogo">
+		<item name="android:src">?topMenuLogo</item>
+	</style>
+
+	<style name="FlatButton">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingTop">15dp</item>
+		<item name="android:paddingBottom">15dp</item>
+		<item name="android:textColor">@color/button_text</item>
+		<item name="android:background">?buttonBg</item>
+    </style>
+
+	<style name="ConfirmDialog" parent="android:style/Theme.Dialog">
+    	<item name="android:windowBackground">@drawable/transparent_bg</item>
+		<item name="android:background">?confirmBg</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">false</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:windowAnimationStyle">@style/FadeAnimation</item>
+    </style>
+
+	<style name="EditDialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowBackground">@drawable/transparent_bg</item>
+		<item name="android:background">?confirmBg</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowIsFloating">false</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:windowAnimationStyle">@style/FadeAnimation</item>
+		<item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+	
+	<style name="CompletedRowButton">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:src">?completedIcon</item>
+	</style>
+	
+	<style name="PendingRowButton">
+		<item name="android:background">?smallButtonBg</item>
+		<item name="android:src">@drawable/list_pending</item>
+	</style>
+	
+	<style name="NewRowButton">
+		<item name="android:background">?smallButtonBg</item>
+		<item name="android:src">@drawable/small_add</item>
+	</style>
+	
+	<style name="CloseButton">
+		<item name="android:background">?smallButtonBg</item>
+		<item name="android:src">@drawable/btn_close_icon</item>
+	</style>
+	
+	<style name="ImageButton">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+
+	<style name="ImageButton.New">
+		<item name="android:src">@drawable/btn_new_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	<style name="ImageButton.Close">
+		<item name="android:src">@drawable/btn_close_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	<style name="ImageButton.Save">
+		<item name="android:src">@drawable/btn_save_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	<style name="ImageButton.Delete">
+		<item name="android:src">@drawable/btn_trash_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	
+	<style name="ImageButton.Plus">
+		<item name="android:src">@drawable/btn_new_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	<style name="ImageButton.Minus">
+		<item name="android:src">@drawable/btn_minus_icon</item>
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	
+	<style name="PickerValueText">
+		<item name="android:background">#ffffffff</item>
+		<item name="android:textColor">#ff00FF00</item>
+	</style>
+	
+	<style name="FooterButton">
+		<item name="android:background">?buttonBg</item>
+		<item name="android:layout_width">42dp</item>
+		<item name="android:layout_height">42dp</item>
+	</style>
+	
+	<style name="FooterButton.Tofu">
+		<item name="android:src">@drawable/icon_tofu</item>
+	</style>
+	
+	<style name="FooterButton.Important">
+		<item name="android:src">@drawable/icon_important</item>
+	</style>
+	
+	<style name="FooterButton.Collaborate">
+		<item name="android:src">@drawable/icon_collaborate</item>
+	</style>
+	
+	<style name="FooterButton.Reminder">
+		<item name="android:src">@drawable/icon_reminder</item>
+	</style>
+	
+	<style name="FooterButton.Location">
+		<item name="android:src">@drawable/icon_location</item>
+	</style>
+	
+	
+
+
+
+
+    <style name="DialogText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+	
+    <style name="DialogText.Title">
+		<item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+	
+	<style name="DialogBg">
+        <item name="android:background">?dialogBgColor</item>
+    </style>
+
+	<style name="FadeAnimation" parent="@android:Animation">
+		<item name="android:windowEnterAnimation">@anim/fade_in</item>
+		<item name="android:windowExitAnimation">@anim/fade_out</item> 
+	</style>
+	
+	<style name="FadeAnimationOutOnly" parent="@android:Animation">
+		<item name="android:windowEnterAnimation">@anim/fade_in</item>
+		<item name="android:windowExitAnimation">@anim/fade_out</item> 
+	</style>
+	
+	<style name="Toast">
+		<item name="android:background">?dialogBgColor</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	
+	<style name="TofuToast">
+		<item name="android:background">?interactiveColor</item>
+		<item name="android:textColor">@color/white</item>
+	</style>
+	
+	<style name="ListItemTitle">
+		<item name="android:background">?listItemTitleBg</item>
+	</style>
+	
+	
+	
+	<style name="ListHeader">
+		<item name="android:background">#ffe5e5e5</item>
+	</style>
+	
+	<style name="MultiChoiceDialogList">
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:divider">?passiveStrongColor</item>
+	</style>
+	
+	<style name="MChoiceRow">
+		<item name="android:background">?buttonBg</item>
+	</style>
+	
+	<style name="E404Button">
+		<item name="android:background">@color/e404_button_bg</item>
+		<item name="android:textColor">@color/e404_title</item>
+	</style>
+	
+	<!-- <style name="UmlautDefault.Preferences">
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	
+	<style name="UmlautCinema.Preferences">
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	
+	<style name="UmlautWorld.Preferences">
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	
+	<style name="UmlautFabulous.Preferences">
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	
+	<style name="UmlautPirate.Preferences">
+		<item name="android:background">@color/white</item>
+		<item name="android:textColor">@color/black</item>
+	</style> -->
+	
+</resources>

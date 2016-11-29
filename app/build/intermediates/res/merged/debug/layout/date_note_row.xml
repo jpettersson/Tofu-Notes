@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/noteRow" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="52dp" 
+    android:gravity="center_vertical"
+	android:paddingTop="10dp"
+	android:paddingLeft="5dp"
+	android:paddingBottom="10dp"
+	android:cacheColorHint="#00000000"
+	>
+
+	<TextView android:id="@+id/noteRowDate" xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_toRightOf="@id/icon"
+	    android:layout_width="73dp"
+	    android:layout_height="32dp" 
+	    android:gravity="center_vertical"
+		android:paddingTop="2dp"
+	    android:paddingLeft="5dp" 
+	    android:textSize="14dp"
+	    android:textColor="#9f9f9f"
+		android:background="#ffffff"
+		android:text=""
+		android:singleLine="true"
+		/>
+
+	<TextView android:id="@+id/noteRowName" xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_toRightOf="@id/noteRowDate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="32dp" 
+	    android:gravity="center_vertical" 
+	    android:textSize="18dp"
+	    android:textColor="#000000"
+		android:paddingLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:singleLine="true"
+		android:layout_weight="1"
+		style="@style/ListItemTitle"
+		/>
+	
+	<LinearLayout
+		android:id="@+id/listRowIconHolder"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	>
+	
+	</LinearLayout>
+</LinearLayout>
